@@ -1,0 +1,72 @@
+body{
+margin: 0px;
+padding: 0px;
+font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: #FFC107;
+  height: 90px;
+}
+
+header img {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+float: right;
+margin: 20px 10px;
+background: gray;
+color: #FFF;
+padding: 5px;
+border-radius: 5px;
+font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  text-align: center;
+}
+
+#menu{
+  clear: inherit;
+  width: 20%;
+  height: 508px;
+  /*border: 1px solid gray;*/
+  border-right: 1px solid gray;
+}
+
+#el-select{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 5px;
+}
+
+#overview{
+  width: 79%;
+  height: 500px;
+  /*border: solid 1px gray;*/
+}
+.select{
+  display: block;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.containers{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.miniDivs{
+  border: solid 1px #000;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: top;
+  box-shadow: 10px 10px #b5adad;
+  margin: 10px 10px;
+}

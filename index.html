@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet" type="text/css">
+    <title>Data Dashboard</title>
+  </head>
+  <body>
+    <section id="container">
+      <header>
+        <button type="button" name="button">Sign In</button>
+        <img src="assets/images/logo-laboratoria.svg" alt="logo">
+      </header>
+      <div id="menu" class="containers">
+        <h2>Generaciones por sede</h2>
+        <select id="el-select">
+          <option disabled="disabled"
+                  hidden="hidden"
+                  selected="selected">Selecciona una de las opciones</option>
+          <optgroup label="Arequipa" id="arequipa" class="select">
+          <option value="g1" id="arequipa1" data-year = '2016-2'>2016-2</option>
+          <option value="g2" id="arequipa2" data-year = '2017-1'>2017-1</option>
+          </optgroup>
+          <optgroup label="CDMX" id="cdmx" class="select">
+            <option value="g1" data-year = '2017-1'>2017-1</option>
+            <option value="g2" data-year = '2017-2'>2017-2</option>
+          </optgroup>
+          <optgroup label="Lima" id="lima" class="select">
+            <option value="g1" data-year = '2016-2'>2016-2</option>
+            <option value="g2" data-year = '2017-1'>2017-1</option>
+            <option value="g3" data-year = '2017-2'>2017-2</option>
+          </optgroup>
+          <optgroup label="Santiago de Chile" id="chile" class="select">
+            <option value="g1" data-year = '2016-2'>2016-2</option>
+            <option value="g2"data-year = '2017-1'>2017-1</option>
+            <option value="g3" data-year = '2017-2'>2017-2</option>
+          </optgroup>
+        </select>
+      </div>
+      <section id="overview">
+      </section>
+      <section id="overview2">
+
+      </section>
+
+    </section>
+		<!-- Base de datos -->
+		<script src="./js/data.js"></script>
+		<!-- Aquí va tus archivos JS -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
